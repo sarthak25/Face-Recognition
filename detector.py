@@ -23,7 +23,7 @@ with open('hash_faces.txt', 'r') as file:
 
             
 cam = cv2.VideoCapture(0)
-#font = cv2.cv.InitFont(cv2.CV_FONT_HERSHEY_SIMPLEX, 1, 1, 0, 1, 1) #Creates a font
+font = cv2.cv.InitFont(cv2.CV_FONT_HERSHEY_SIMPLEX, 1, 1, 0, 1, 1) #Creates a font
 font = cv2.FONT_HERSHEY_SIMPLEX
 
     
